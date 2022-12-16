@@ -1,0 +1,10 @@
+transformers==4.17.0
+torch==1.8.0+cu111
+datasets==1.18.4
+scikit-learn==1.1.0
+seqeval==1.2.2
+matplotlib==3.5.2
+numpy==1.22.3
+pandas==1.4.2
+tqdm==4.64.0
+img2vec-pytorch==1.0.1
