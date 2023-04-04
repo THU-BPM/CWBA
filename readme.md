@@ -52,7 +52,7 @@ python text_classification.py --data_folder dataset --dataset ag_news --model be
 
 ### process data for attack
 ```
-python pre_select_token.py --dataset ag_news --model_dir logdir/ag_news_bert/pytorch_model.bin  --validation_output data/ag_news/test_processed_bert.json --model_name xlnet-base-cased
+python pre_select_token.py --dataset ag_news --model_dir logdir/ag_news_bert/pytorch_model.bin  --validation_output data/ag_news/test_processed_bert.json --model_name bert-base-uncased
 ```
 
 ### attack model
